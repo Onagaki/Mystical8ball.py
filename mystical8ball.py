@@ -3,7 +3,7 @@ import random
 answer = " "
 rand = random.randint(0, 8)
 
-Question = str(input("What is your question :"))
+Question = input("What is your question :")
 
 if rand == 0:
     answer = "Yes - definitely."
